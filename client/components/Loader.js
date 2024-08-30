@@ -1,9 +1,12 @@
 function Loader() {
   return (
-    <div role="status" className="mx-auto">
+    <div
+      role="status"
+      className="min-h-screen bg-gradient flex flex-col justify-center items-center"
+    >
       <svg
         aria-hidden="true"
-        class="w-12 h-12 text-gray-200 animate-spin dark:text-gray-600 fill-accent-green"
+        className="w-12 h-12 text-gray-200 animate-spin dark:text-gray-600 fill-accent-green"
         viewBox="0 0 100 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +20,9 @@ function Loader() {
           fill="currentFill"
         />
       </svg>
-      <span class="sr-only">Loading...</span>
+      <span className="font-anon text-white mt-6 text-xl">
+        loading your quiz...
+      </span>
     </div>
   );
 }
