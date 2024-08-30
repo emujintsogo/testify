@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Roboto+Mono:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient {
+  @apply bg-gradient-to-b from-bg-gray from-0% to-bg-black to-35%;
+}
+
+.button-gradient {
+  @apply bg-gradient-to-r from-btn-green from-50% to-btn-lime to-100%;
+}
